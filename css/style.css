@@ -1,0 +1,77 @@
+body{
+    margin: 0%;
+}
+.mainContainer{
+    position: relative;
+}
+.banner{
+    position: relative;
+    left: 127px;
+}
+form{
+    position: relative;
+    left: 717px;
+}
+.redes{
+    position: absolute;
+    right: 50px;
+    font-size: 40px;
+    color: pink;
+}
+.bottomPage{
+    POSITION: absolute;
+    font-weight: bold;
+    font-size: large;
+    left: 717px;
+    bottom: -394px;
+}
+.link{
+    color: pink;
+    font-weight: bold;
+}
+@media(max-width: 500px){
+    .banner{
+        height:125px;
+        left: 0px;
+    }
+    form{
+        position: relative;
+        left: 0px;
+
+    }
+    form label{
+        left: 179px;
+        position: absolute;
+        margin: 0;
+    }
+    .input{
+        position: absolute;
+        left: 5pc;
+        top: 2pc;
+        width: 195px;
+    }
+    button{
+        position: absolute;
+        left: 18pc;
+        top: 2pc;
+        color: white;
+        background-color: pink;
+        border-style: none;
+        border-radius: 5px;
+        height: 22px;
+        width: 89px;
+    }
+    .redes{
+        left: 135px;
+        top: 203px;
+    }
+        
+    
+    .redes i{
+        margin:0px 15px;
+    }
+    .bottomPage{
+        left: 46px;
+    bottom: -232px;
+    }
+}
